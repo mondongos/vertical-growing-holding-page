@@ -6,14 +6,14 @@ export default class Home extends React.Component {
     render() {
         const styles = {
             heroDiv: {
-            backgroundImage: "url(./images/decor-flatlay-from-above-1470171.jpg)"
+            backgroundImage: 'url(./images/decor-flatlay-from-above-1470171.jpg)'
             }
         }
         console.log(styles.heroDiv)
         return (
             <React.Fragment>
                 <NavBar/>
-                <Jumbotron className="hero-container" style={styles.heroDiv} fluid>
+                <Jumbotron className="hero-container hero-background-image"  fluid>
                     <Container className="hero-text">
                         <h1> Another one.</h1>
                         <p className="hero-para">

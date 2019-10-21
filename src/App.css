@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -31,6 +31,14 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+} 
+
+.hero-background-image {
+  position: relative;
+  background: url("./components/images/decor-flatlay-from-above-1470171.jpg") center center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
 }
 
 .hero-para {
