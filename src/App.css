@@ -22,14 +22,19 @@
 }
 
 .hero-container{
+  padding: 0px;
   height: 100vh;
 }
 
 .hero-text {
-  text-align: center;
+  text-align: left;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.hero-para {
+  width: 50%;
 }
 
 .nav-text {
