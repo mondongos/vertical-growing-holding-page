@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Jumbotron, Button, Card} from 'react-bootstrap'
+import {Container, Jumbotron, Button, Card, InputGroup, FormControl} from 'react-bootstrap'
 import NavBar from './navbar'
 
 export default class Home extends React.Component {
@@ -22,6 +22,20 @@ export default class Home extends React.Component {
                         <Button variant="primary">Lion</Button>
                     </Container>
                 </Jumbotron>
+                <Card className="contact-form">
+                    <Card.Body>
+                        <h3>We're not quite ready yet.</h3>
+                        <p>Give us your email and we'll alert you when we're live.</p>
+                    <InputGroup className="mb-3">
+                        <FormControl
+                        placeholder="Recipient's username"
+                        aria-label="Recipient's username"
+                        aria-describedby="basic-addon2"
+                        />
+                    </InputGroup>
+                    </Card.Body>
+
+                </Card>
             </React.Fragment>
         )
     }

@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
+  background-color: #FEFEFE;
 }
 
 .App-logo {
@@ -24,6 +26,7 @@
 .hero-container{
   padding: 0px;
   height: 100vh;
+  margin: 0px;
 }
 
 .hero-text {
@@ -47,4 +50,8 @@
 
 .nav-text {
   color: white
+}
+
+.contact-form {
+  background-color: #F8F9FD;
 }
